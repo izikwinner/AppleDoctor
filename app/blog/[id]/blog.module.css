@@ -1,0 +1,29 @@
+/* blog.module.css */
+
+.blogTitle {
+    text-align: center; /* Центрируем содержимое блока по горизонтали */
+    margin-bottom: 20px; /* Добавляем отступ между блоками */
+  }
+  
+.blogContent {
+    text-align: justify;
+}
+  
+.links {
+  color: #000;
+  text-decoration: none;
+  font-style: bold;
+}
+
+.text {
+  color: #000;
+  font-style: bold;
+}
+
+.img {
+  border-radius: 5px;
+  display: block; /* Чтобы изображение было блочным элементом */
+  margin: 0 auto; /* Центрируем изображение по горизонтали */
+  max-width: 100%; /* Изображение не будет превышать родительский контейнер */
+  height: auto; /* Изображение будет сохранять свои пропорции */
+}

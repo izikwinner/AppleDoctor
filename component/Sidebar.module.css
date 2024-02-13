@@ -1,0 +1,39 @@
+/* Sidebar.module.css */
+.sidebar {
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px;
+    width: 250px;
+    height: 600px;
+    background-color: #000;
+    color: #fff;
+    padding: 200px 20px  20px 20px;
+  }
+  
+  .sidebar a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  
+  .sidebar svg {
+    padding: 5px;
+    width: 20px; /* Установите желаемый размер иконки */
+    height: 20px; /* Установите желаемый размер иконки */
+  }
+  .links {
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .active {
+    background-color: #ffb800;
+  }
